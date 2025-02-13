@@ -1,0 +1,55 @@
+# Python-spezifische Dateien
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+
+# Virtuelle Umgebungen
+.env
+venv/
+env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Daten (Roh- und verarbeitete Dateien)
+data/raw/
+data/processed/
+data/interim/
+data/external/
+
+# Logs und Debugging-Dateien
+logs/
+*.log
+debug.log
+
+# Modelle und Checkpoints
+models/
+*.h5
+*.ckpt
+*.onnx
+*.pth
+
+# Datenbanken
+database/*.db
+database/*.sqlite3
+
+# API Keys und Umgebungsvariablen
+.env
+secrets.json
+
+# VSCode & PyCharm
+.vscode/
+.idea/
+*.code-workspace
+
+# MacOS & Linux
+.DS_Store
+*.swp
